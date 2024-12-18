@@ -1,0 +1,86 @@
+:root {
+  --white: #f4f4f9d7;
+  --green: #266969;
+  --text: #00000098;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /*border: 1px solid red;*/
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  background-color: var(--white);
+  color: var(--text);
+}
+
+.container {
+max-width: 600px;
+width: 100%;
+margin: 50px auto;
+background: var(--white);
+padding: 20px;
+box-shadow: 0 2px 5px black;
+border-radius: 8px;
+text-align: center;
+}
+
+h1 {
+margin-bottom: 20px;
+font-size: 24px;
+color: var(--green);
+}
+
+.input-div {
+margin-bottom: 20px;
+text-align: left;
+}
+
+.input-div label {
+display: block;
+font-size: 16px;
+margin-bottom: 5px;
+}
+
+.input-div input {
+width: 100%;
+padding: 10px;
+font-size: 16px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+#purchase-btn {
+display: inline-block;
+padding: 10px 20px;
+font-size: 16px;
+color: var(--white);
+background-color: var(--green);
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+#purchase-btn:hover {
+background-color: var(--white);
+color: var(--text);
+border: 1px solid black;
+}
+
+.output-div {
+margin-top: 20px;
+text-align: left;
+}
+
+.output-div p {
+margin: 10px 0;
+font-size: 16px;
+}
